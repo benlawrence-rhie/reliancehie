@@ -9,7 +9,7 @@
 ## A. OHA CCO Incentive and Performance Reports
 | Report Name    | Description               |
 | -------------  |-------------              |
-| [Diabetes: HbA1c Poor Control](#diabetes:-hba1c-poor-control)        | Percentage of patients 18-75 years of age with diabetes who had hemoglobin A1c > 9.0% during the measurement period.         |
+| [Diabetes: HbA1c Poor Control](#diabetes-hba1c-poor-control)        | Percentage of patients 18-75 years of age with diabetes who had hemoglobin A1c > 9.0% during the measurement period.         |
 | [Hypertension](#hypertension)  | Report description        |
 
 ## B. QCDR Reports
