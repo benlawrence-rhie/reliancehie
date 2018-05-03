@@ -1,17 +1,20 @@
-![](https://github.com/reliancehie/reports-code/blob/master/pictures/reliance_logo.png)
+![](https://github.com/benlawrence-rhie/reliancehie/blob/master/pictures/reliance_logo.png)
 
 # Reliance Insight Report Catalog
 
 ### Click on a report name below for a detailed description 
 
-## A. OHA CCO Incentive and Performance Reports
+## [A. OHA CCO Incentive and Performance Reports](#oha-cco-incentive-and-performance-reports)
 
 | Report Name    | Description               |
 | -------------  |-------------              |
 | [Diabetes: HbA1c Poor Control](#diabetes-hba1c-poor-control)        | Percentage of patients 18-75 years of age with diabetes who had hemoglobin A1c > 9.0% during the measurement period.         |
 | [Controlling Hypertension](#controlling-hypertension)  | Percentage of patients 18-85 years of age who had a diagnosis of hypertension and whose blood pressure was adequately controlled (<140/90mmHg) during the measurement period.        |
+| [Disparity Measure: Emergency Department Utilization for Individuals Experiencing Mental Illness ]()  | Rate of visits to an emergency department among adult members experiencing mental illness.        |
+| [Childhood Immunization Status]()  | Percentage of children 2 years of age who had four diphtheria, tetanus and acellular pertussis (DTaP); three polio (IPV), one measles, mumps and rubella (MMR); three H influenza type B (HiB); three hepatitis B (Hep B); one chicken pox (VZV); four pneumococcal conjugate (PCV); one hepatitis A (Hep A); two or three rotavirus (RV); and two influenza (flu) vaccines by their second birthday       |
+| [Effective Contraceptive Use]()        | Percentage of women (ages 15-50) with evidence of one of the most effective or moderately effective contraceptive methods during the measurement year: IUD, implant, contraception injection, contraceptive pills, sterilization, patch, ring, or diaphragm.         |
 
-## B. QCDR Reports
+## [B. QCDR Reports](#qcdr-reports)
 | Report Name    | Description               |
 | -------------  |-------------              |
 | [Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)]()        | Percentage of patients 18-75 years of age with diabetes who had hemoglobin A1c > 9.0% during the measurement period.         |
@@ -23,19 +26,19 @@
 | [Controlling High Blood Pressure]() | Percentage of patients 18-85 years of age who had a diagnosis of hypertension and whose blood pressure was adequately controlled (<140/90mmHg) during the measurement period. |
 | [Cervical Cancer Screening]() | Percentage of women 21-64 years of age who were screened for cervical cancer using either of the following criteria: * Women age 21-64 who had cervical cytology performed every 3 years * Women age 30-64 who had cervical cytology/human papillomavirus (HPV) co-testing performed every 5 years |
 
-## C. Custom Reports
+## [C. Custom Reports](#custom-reports)
 | Report Name    | Description               |
 | -------------  |-------------              |
 | [HepC Dx and Hepatic Labs]() | All patients with HepC, their diagnosis labs and liver function labs |
 | [Diabetes by Type]() | Based on CCO incentive measure report but splits out Type 1 vs Type 2 | 
 | [Positive Pregnancy]() | Real time identification of pregnant population |  
 
-## D. Appendix
+## [D. Appendix](#appendix)
 [Consolidated Patient Chart](#consolidated-patient-chart)  
 [Glossary](#glossary)
 
 
-## A. OHA CCO Incentive and Performance Reports  
+## OHA CCO Incentive and Performance Reports  
 The Oregon Health Authority (OHA) uses quality health metrics to show how well Coordinated Care Organizations (CCOs) are improving care, making quality care accessible, eliminating health disparities, and curbing the rising cost of health care. These outcome and quality measures are developed by the OHA Metrics and Scoring Committee and can be found here:   
 <http://www.oregon.gov/OHA/HPA/ANALYTICS/Pages/CCO-Baseline-Data.aspx>  
 Many of these reports are based off of the CMS 2017 Performance Period EP/EC eCQMs: <https://ecqi.healthit.gov/eligible-professional-eligible-clinician-ecqms/2017-performance-period-epec-ecqms>   
@@ -57,9 +60,9 @@ Start Date, End Date, and Records to Display Below
 Total denominator hits, total numerator hits, measure ratio (total numerator hits/total denominator hits), stacked bar chart of measure ratio, distribution plot of HbA1c values in denominator population, list of patients that meet denominator and numerator requirements.  
 OHA Format CSV Download and All Data CSV Download (contains all column headings below)  
 **Example Output**  
-![](https://github.com/reliancehie/reports-code/blob/master/pictures/diabetes_chart.png)  
+![](https://github.com/benlawrence-rhie/reliancehie/blob/master/pictures/diabetes_chart.png)  
 **Column headings**  
-![](https://github.com/reliancehie/reports-code/blob/master/pictures/diabetes_fields.png)  
+![](https://github.com/benlawrence-rhie/reliancehie/blob/master/pictures/diabetes_fields.png)  
 or in Markdown style:  
 
 | | | | | 
@@ -78,7 +81,9 @@ ordering_provider|meets_denominator|meets_numerator|measurement_period_begin|mea
 
 ## Custom Reports
 
-## Consolidated Patient Chart  
+## Appendix
+
+### Consolidated Patient Chart  
 The Consolidated Patient Chart (CPC) is a tool that allows users to more easily access patient records. CPC consists of three main sections: Summary, a quick overview of the patient; History, a timeline and charts of the patient's measurements; and Details, an in-depth analysis of the records.  
 
-## Glossary 
+### Glossary 
